@@ -8,7 +8,7 @@ fstab:
   /dev/sda3:
     mount: swap
     type: swap
-  /dev/sdc1:
+  UUID=30fcb748-ad1e-4228-af2f-951e8e7b56df:
     mount: /playground
     type: btrfs
     root-reserve: 5%
