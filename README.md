@@ -4,12 +4,9 @@ The tool or script to convert yaml file containing fstab entry to fstab format.
 Structure:
 
 ```bash
-./
+.
 ├── LICENSE
 ├── README.md
-├── __pycache__
-│   ├── genfstab.cpython-39.pyc
-│   └── test.cpython-39.pyc
 ├── example_yamls
 │   ├── fstab.v1.yaml
 │   ├── fstab.yaml
@@ -18,12 +15,12 @@ Structure:
 ├── requirements.txt
 └── test.py
 
-2 directories, 10 files
+1 directory, 8 files
 ```
 
 ## Requirement
 To run the script, one must fulfill some requirements.
-- Script is ran in: Python 3.9.9 but should work above **Python 3.5+**
+- Script is ran in: Python 3.9.9 but should work above **Python 3.6+**
 - Pip(use pip3 if needed according to your system) should be installed and necessarily for python3.
 
 ## Prepare environment
@@ -275,6 +272,7 @@ There is a small effort with unitest on reading yaml file. Unittest file is **te
 ```bash
 $ python3 genfstab.py --action test
 ```
+**or**
 
 ```bash
 $ python3 -m unittest test
