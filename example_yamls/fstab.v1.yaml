@@ -1,0 +1,21 @@
+fstab:
+  /dev/sda1:
+    mount: /boot
+    type: xfs
+  /dev/sda2:
+    mount: /
+    type: xfs
+  /dev/sda3:
+    mount: swap
+    type: swap
+  /dev/sdc1:
+    mount: /playground
+    type: btrfs
+    root-reserve: 5%
+  192.168.31.101:
+    mount: /fun
+    export: /var/nfs/fun
+    type: nfs
+    options:
+      - noexec
+      - nosuid
