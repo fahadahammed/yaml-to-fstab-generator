@@ -37,7 +37,7 @@ This script has 3 actions.
 3. test
 ### Show
 ```bash
-$ python3 genfstab.py --action show --yamlFile example_yamls/fstab.yaml
+$ python3 genfstab.py --action show --yamlFile <YAML_FILE>
 ```
 
 ### Write
